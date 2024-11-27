@@ -1,11 +1,47 @@
 @font-face {
-  font-family: "Cormorant";
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src:
+    local("Montserrat"),
+    url("../fonts/Montserrat-Black.woff2") format("woff2"),
+    url("../fonts/Montserrat-Black.woff") format("woff"),
+    url("../fonts/Montserrat-Black.eot") format("eot");
+}
+
+@font-face {
+  font-family: "Nunito";
   font-weight: 700;
   font-style: normal;
   font-display: swap;
   src:
-    local("Cormorant"),
-    url("../fonts/Cormorant/Cormorant-VariableFont_wght.woff2") format("woff2"),
-    url("../fonts/Cormorant/Cormorant-VariableFont_wght.woff") format("woff"),
-    url("../fonts/Cormorant/Cormorant-VariableFont_wght.eot") format("eot");
+    local("Nunito"),
+    url("../fonts/Nunito-Bold.woff2") format("woff2"),
+    url("../fonts/Nunito-Bold.woff") format("woff"),
+    url("../fonts/Nunito-Bold.eot") format("eot");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src:
+    local("Nunito"),
+    url("../fonts/Nunito-SemiBold.woff2") format("woff2"),
+    url("../fonts/Nunito-SemiBold.woff") format("woff"),
+    url("../fonts/Nunito-SemiBold.eot") format("eot");
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src:
+    local("Nunito"),
+    url("../fonts/Nunito-Regular.woff2") format("woff2"),
+    url("../fonts/Nunito-Regular.woff") format("woff"),
+    url("../fonts/Nunito-Regular.eot") format("eot");
 }
